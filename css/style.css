@@ -1,0 +1,112 @@
+.app {
+  font-family: "Lato", sans-serif;
+}
+
+.page {
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+.myContainer {
+  padding: 80px 125px;
+}
+
+.page__bg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  flex: 1;
+  background-color: #e8590c;
+  overflow: hidden;
+}
+
+.img--bg {
+  position: absolute;
+  bottom: 10px;
+  right: -5px;
+  z-index: 1;
+  width: 90%;
+}
+
+.page__form {
+  flex: 1;
+}
+
+.page__form h1 {
+  font-family: "Open Sans", sans-serif !important;
+  color: #e8590c;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.page__form p {
+  margin-top: 24px;
+}
+
+.myform-group {
+  position: relative;
+  margin-top: 20px;
+}
+
+.myform-group h3 {
+  font-size: 14px;
+}
+
+.custom__field {
+  border: none;
+  border-bottom: 1px solid #a0a4a8;
+  outline: none !important;
+  border-radius: unset;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+.custom__field:focus {
+  outline-color: transparent;
+  outline-style: none;
+}
+
+.icon__input {
+  position: absolute;
+  right: 10px;
+}
+
+.text-16 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text--black3 {
+  color: #a0a4a8;
+}
+
+.form {
+  margin-top: 50px;
+}
+
+.mainBtn {
+  width: 100%;
+  margin-top: 50px;
+  padding: 15px 15px;
+  border: none;
+  outline: none;
+  background-color: #e8590c;
+  color: white;
+}
+
+@media all and (max-width: 989px) {
+  .page__bg {
+    display: none;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .myContainer {
+    padding: 25px;
+  }
+}

@@ -17,7 +17,7 @@
   width: 100%;
   height: 100%;
   z-index: 2;
-  flex: 1;
+  flex: 1.2;
   background-color: #e8590c;
   overflow: hidden;
 }
@@ -32,6 +32,16 @@
 
 .page__form {
   flex: 1;
+}
+
+.d-flex-col {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.col-33 {
+  flex: 33%;
 }
 
 .page__form h1 {
@@ -85,10 +95,6 @@
   color: #a0a4a8;
 }
 
-.form {
-  margin-top: 50px;
-}
-
 .mainBtn {
   width: 100%;
   margin-top: 50px;
@@ -97,6 +103,7 @@
   outline: none;
   background-color: #e8590c;
   color: white;
+  font-weight: bold;
 }
 
 @media all and (max-width: 989px) {

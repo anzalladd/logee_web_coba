@@ -205,6 +205,20 @@
   font-weight: bold;
 }
 
+.main {
+  position: relative;
+  left: calc(64px + 261px);
+  width: calc(100% - 64px - 261px);
+  padding: 24px 165px 24px 30px;
+}
+
+.big-title {
+  font-size: 60px;
+  margin: 0;
+  color: black;
+  font-weight: normal;
+}
+
 @media all and (max-width: 989px) {
   .page__bg {
     display: none;
